@@ -29,14 +29,24 @@ body{
 /* logotype style */
 .logo {
     color: var(--secondary-txt-col);
+    text-decoration: none;
 }
 .logoblue {
     color: var(--accent-col);
 }
 
-/* site nav */
-.site-nav a {
+/* site nav and header contacts*/
+
+.page-header li{
+    list-style: none;
+}
+
+.site-nav a,
+.header-contacts a {
     color: var(--secondary-txt-col);
+    line-height: 1,14 ;
+    text-decoration: none;
+    
 }
 
 .site-nav a:hover,
@@ -44,16 +54,19 @@ body{
     color: var(--accent-col);
 }
 
-.site-nav .link.current {
+.site-nav .link-current {
     color: var(--accent-col)
-}
-
-/* header contacts */
-.header-contacts a {
-    color: var(--secondary-txt-col);
 }
 
 .header-contacts a:hover,
 .header-contacts a:focus {
     color: var(--accent-col);
 }
+
+/* hero */
+
+
+
+
+
+

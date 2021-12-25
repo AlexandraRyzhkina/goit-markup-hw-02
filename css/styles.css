@@ -28,6 +28,9 @@ body{
 
 /* logotype style */
 .logo {
+    font-family: raleway;
+    font-size: 26px;
+    font-weight: 700;
     color: var(--secondary-txt-col);
     text-decoration: none;
 }
@@ -131,6 +134,9 @@ button:hover{
 /* футер */
 
 .logowhite{
+    font-family: raleway;
+    font-size: 26px;
+    font-weight: 700;
     color: var(--white-txt-col);
     text-decoration: none;
 }

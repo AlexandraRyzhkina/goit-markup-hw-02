@@ -68,6 +68,7 @@ body{
 }
 
 /* hero+button */
+/* Залит темный фон, чтобы были видны буквы */
 
 .hero{
     background-color: #2F303A;
@@ -132,6 +133,7 @@ button:hover{
 }
 
 /* футер */
+/* Залит темный фон, чтобы были видны буквы */
 
 .logowhite{
     font-family: raleway;

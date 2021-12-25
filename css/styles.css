@@ -80,16 +80,20 @@ body{
     color: var(--white-txt-col);
 }
 
-button:hover{
+.button:hover, .button:focus{
     background-color: var(--accent-col);
     color: var(--white-txt-col);
+    
+}
+
+.button{
+    cursor: pointer;
 }
 
 /* преимущества */
 
 .features-list .title{
     font-weight: 700;
-    font-size: 14px;
     line-height: 1.17;
     color: var(--secondary-txt-col)
 }

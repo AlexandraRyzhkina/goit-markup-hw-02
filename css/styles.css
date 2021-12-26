@@ -17,13 +17,12 @@
 }
 
 /* index.html */
-body{
+body {
     font-family: roboto, sans-serif;
     font-size: 14px;
     font-weight: 400;
     color: var(--primary-txt-col);
     background-color: var(--primary-bg-col);
-    
 }
 
 /* logotype style */
@@ -50,7 +49,6 @@ body{
     color: var(--secondary-txt-col);
     line-height: 1,14 ;
     text-decoration: none;
-
 }
 
 .site-nav a:hover,
@@ -160,6 +158,11 @@ body{
     color: var(--white-txt-col);
 }
 
+.address a:hover, 
+.address a:focus{
+    color: var(--accent-col);
+}
+
 /* portfolio html */
 
 .button-list li{
@@ -174,7 +177,6 @@ body{
 
 .example-list a{
     text-decoration: none;
-
 }
 
 .example-list .title{

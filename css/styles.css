@@ -78,14 +78,25 @@ body {
     color: var(--white-txt-col);
 }
 
-.button:hover, .button:focus{
+.button-hero:hover, .button-hero:focus{
     background-color: var(--accent-col);
     color: var(--white-txt-col);
     
 }
-
-.button{
+.button-hero{
     cursor: pointer;
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.button-portfolio:hover, .button-portfolio:focus {
+    background-color: var(--accent-col);
+    color: var(--white-txt-col);
+}
+
+.button-portfolio{
+    font-weight: 500;
+    font-size: 16px;
 }
 
 /* преимущества */

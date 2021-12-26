@@ -159,19 +159,34 @@ body {
 .section-footer{
     background-color: #2f303a;
     line-height: 1.7;
-    }
-
-.address li{
-    list-style: none;
 }
 
-.address a{
+.address li,
+.address-cont li{
+    list-style: none;
+    
+}
+
+.address a {
     text-decoration: none;
     color: var(--white-txt-col);
+    font-style: normal;
+}
+
+.address-cont a{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.address-cont{
+    margin:0;
+    padding:0;
 }
 
 .address a:hover, 
-.address a:focus{
+.address a:focus,
+.address-cont a:hover,
+.address-cont a:focus{
     color: var(--accent-col);
 }
 

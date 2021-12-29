@@ -111,6 +111,7 @@ body {
 
 .features-list .title{
     font-weight: 700;
+    font-size: 14px;
     line-height: 1.14;
     color: var(--secondary-txt-col);
     text-transform: uppercase;

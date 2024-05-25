@@ -1,0 +1,124 @@
+:root {
+  --logo-iris: #4d5ae5;
+  --button-iris: #4d5ae5;
+  --ocean: #404bbf;
+  --logo-studio-header: #2e2f42;
+  --nav-link-color: #2e2f42;
+  --hero-bgc: #2e2f42;
+  --aftertitle-color: #2e2f42;
+  --green: #31d0aa;
+  --txt-general-color: #434455;
+  --auth-link-color: #434455;
+  --light-slate: #8e8f99;
+  --cornflower: #e7e9fc;
+  --cloud: #f4f4fd;
+  --navy-blue-modal: rgba(46, 47, 66, 0.4);
+  --grey: rgba(46, 47, 66, 0.7);
+  --white-bgc: #ffffff;
+  --hero-txt-color: #ffffff;
+  --dairy: #fcfcfc;
+}
+
+body {
+  background-color: var(--white-bgc);
+  font-family: "Roboto", sans-serif;
+  color: var(--txt-general-color);
+}
+
+ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+.aftertitle {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--aftertitle-color);
+}
+
+/* logo styles header */
+
+.logo-web,
+.logo-studio {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.16667;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.logo-web {
+  color: var(--logo-iris);
+}
+
+.logo-studio {
+  color: var(--logo-studio-header);
+}
+
+/* navigation styles */
+
+.nav-link {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--nav-link-color);
+}
+
+/* authorisation styles */
+
+.auth-link {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--auth-link-color);
+}
+
+/* section hero */
+
+.section.hero {
+  background-color: var(--hero-bgc);
+}
+
+.title.hero {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.07143;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: var(--hero-txt-color);
+}
+
+/* hero button */
+
+.hero-button {
+  border-radius: 4px;
+  padding: 16px 32px;
+  width: 169px;
+  height: 56px;
+
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+  background: #4d5ae5;
+}
+
+/* features */
+
+.features-text {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}

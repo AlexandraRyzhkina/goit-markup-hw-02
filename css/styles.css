@@ -5,13 +5,16 @@
   --logo-studio-header: #2e2f42;
   --nav-link-color: #2e2f42;
   --hero-bgc: #2e2f42;
+  --footer-bgc: #2e2f42;
   --aftertitle-color: #2e2f42;
+  --title-color: #2e2f42;
   --green: #31d0aa;
   --txt-general-color: #434455;
   --auth-link-color: #434455;
   --light-slate: #8e8f99;
   --cornflower: #e7e9fc;
-  --cloud: #f4f4fd;
+  --logo-studio-footer: #f4f4fd;
+  --team-bgc: #f4f4fd;
   --navy-blue-modal: rgba(46, 47, 66, 0.4);
   --grey: rgba(46, 47, 66, 0.7);
   --white-bgc: #ffffff;
@@ -19,9 +22,17 @@
   --dairy: #fcfcfc;
 }
 
+/* general styles */
+
 body {
   background-color: var(--white-bgc);
+
   font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  font-weight: 400;
+
   color: var(--txt-general-color);
 }
 
@@ -34,8 +45,9 @@ a {
   text-decoration: none;
 }
 
+/* .button{} */
+
 .aftertitle {
-  font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -43,11 +55,18 @@ a {
   color: var(--aftertitle-color);
 }
 
+.title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11111;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: var(--title-color);
+}
+
 /* logo styles header */
 
-.logo-web,
-.logo-studio {
-  font-family: "Raleway", sans-serif;
+.logo {
   font-weight: 700;
   font-size: 18px;
   line-height: 1.16667;
@@ -66,22 +85,13 @@ a {
 /* navigation styles */
 
 .nav-link {
-  font-family: "Roboto", sans-serif;
   font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
   color: var(--nav-link-color);
 }
 
 /* authorisation styles */
 
 .auth-link {
-  font-family: "Roboto", sans-serif;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
   color: var(--auth-link-color);
 }
 
@@ -92,7 +102,6 @@ a {
 }
 
 .title.hero {
-  font-family: "Roboto", sans-serif;
   font-weight: 700;
   font-size: 56px;
   line-height: 1.07143;
@@ -113,12 +122,26 @@ a {
   background: #4d5ae5;
 }
 
-/* features */
+/* section features */
 
-.features-text {
-  font-family: "Roboto", sans-serif;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
+/* section our team */
+
+.section.team{
+    background-color: var(--team-bgc);
+}
+
+/* section portfolio */
+
+/* footer */
+
+.footer {
+  background-color: var(--footer-bgc);
+}
+
+.logo-studio-footer {
+  color: var(--logo-studio-footer);
+}
+
+.footer-text {
+  color: var(--logo-studio-footer);
 }
